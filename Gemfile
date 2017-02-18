@@ -18,7 +18,6 @@ gem 'pry'
 gem 'awesome_print'
 gem 'pony'
 
-gem 'faker'
 
 group :test do
   gem 'shoulda-matchers'
