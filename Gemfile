@@ -17,6 +17,7 @@ gem 'shotgun'
 gem 'pry'
 gem 'awesome_print'
 
+
 gem 'faker'
 
 group :test do
