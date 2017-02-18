@@ -1,24 +1,22 @@
-# README
+## Changelog
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### 2016/10/14 by parkyngj
 
-Things you may want to cover:
+* Add HTTParty and Dotenv to Gemfile and load Dotenv in environment
 
-* Ruby version
+### 2016/10/12 by thealicat13
 
-* System dependencies
+* Require BCrypt in environment file
+* Add user instance `#authenticate?` method
+* Add/Require Faker
+* User faker to make stock user seed data for out-of-box/local testing
 
-* Configuration
+### 2016/10/12 by parkyngj
 
-* Database creation
+* Add timestamps (with null option set to false) to users table migration
 
-* Database initialization
+### 2016/10/9 by lexac1 and parkyngj
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Add migration file for user (only has `username`, `email`, `password_hash`)
+* Comment out validations for `first_name` and `last_name` in `User` model
+* Add `/session-viewer` and `/session-clearer` to `index.rb` controller
