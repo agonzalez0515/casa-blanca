@@ -11,8 +11,6 @@ require 'rubygems'
 require 'uri'
 require 'pathname'
 require 'httparty'
-require 'dotenv'
-Dotenv.load
 
 require 'pg'
 require 'active_record'

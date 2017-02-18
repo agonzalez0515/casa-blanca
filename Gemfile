@@ -29,10 +29,8 @@ end
 
 group :test, :development do
   gem 'factory_girl'
-  gem 'dotenv'
 end
 
 group :api_helpers do
   gem 'httparty'
-
 end
