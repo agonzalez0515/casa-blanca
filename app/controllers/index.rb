@@ -30,7 +30,7 @@ post '/contact' do
   begin
     Pony.mail(
       :from => "#{name}, <#{sender_email}>",
-      :to => 'the-sad-clown@hotmail.com',
+      :to => 'agonzalez0515@gmail.com',
       :subject =>"#{name} has contacted you",
       :body => "#{message}, #{sender_email}",
     )
