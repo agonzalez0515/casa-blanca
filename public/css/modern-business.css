@@ -48,24 +48,6 @@ header.carousel .fill {
     font-size: 100px;
 }
 
-/* Pricing Page Styles */
-
-.price {
-    display: block;
-    font-size: 50px;
-    line-height: 50px;
-}
-
-.price sup {
-    top: -20px;
-    left: 2px;
-    font-size: 20px;
-}
-
-.period {
-    display: block;
-    font-style: italic;
-}
 
 /* Footer Styles */
 
