@@ -16,7 +16,7 @@ gem 'bcrypt'
 gem 'shotgun'
 gem 'pry'
 gem 'awesome_print'
-
+gem 'pony'
 
 gem 'faker'
 
@@ -29,9 +29,10 @@ end
 
 group :test, :development do
   gem 'factory_girl'
+  gem 'dotenv'
 end
 
 group :api_helpers do
   gem 'httparty'
-  gem 'dotenv'
+
 end
