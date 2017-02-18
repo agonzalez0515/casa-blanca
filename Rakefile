@@ -148,4 +148,9 @@ begin
 rescue LoadError
 end
 
+begin
+  require 'minitest/autorun'
+rescue LoadError => e
+  raise e unless ENV['RAILS_ENV'] == "production"
+end
 task :default  => :spec
