@@ -56,9 +56,15 @@ section {
 aside {
   padding: 50px 0;
 }
+
 .no-padding {
   padding: 0;
 }
+
+.top-buffer {
+  margin-top: 50px;
+}
+
 
 
 .section-heading {
